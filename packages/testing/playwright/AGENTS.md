@@ -91,7 +91,7 @@ pnpm janitor rules --json
 pnpm janitor discover
 
 # Distribute specs across shards
-pnpm janitor orchestrate --shards=14
+pnpm janitor distribute --shards=14
 ```
 
 ### Baseline (Incremental Cleanup)
